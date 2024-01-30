@@ -21,3 +21,4 @@ npm install
 ```js
 npm run dev
 ```
+### And open the link at your browser http://localhost:5173
