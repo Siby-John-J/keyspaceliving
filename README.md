@@ -2,20 +2,22 @@
 
 A simple web app with responsive design
 
-## Expanding the ESLint configuration
+## App configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Clone the repository and navigate to the folder
+- 
+```js
+git clone https://github.com/Siby-John-J/keyspaceliving.git
+cd keyspaceliving
+```
 
-- Configure the top-level `parserOptions` property like this:
+-- Config the installation
+```js
+npm install
+```
+
+-- Run the project
 
 ```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+npm run dev
 ```
