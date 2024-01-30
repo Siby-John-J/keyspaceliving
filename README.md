@@ -5,18 +5,18 @@ A simple web app with responsive design
 ## App configuration
 
 - Clone the repository and navigate to the folder
-- 
+
 ```js
 git clone https://github.com/Siby-John-J/keyspaceliving.git
 cd keyspaceliving
 ```
 
--- Config the installation
+- Config the installation
 ```js
 npm install
 ```
 
--- Run the project
+- Run the project
 
 ```js
 npm run dev
